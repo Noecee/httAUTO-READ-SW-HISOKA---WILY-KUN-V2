@@ -55,7 +55,7 @@ export default async function message(hisoka, store, m) {
 				}
 				break;
 
-			case 'info':
+			case 'p':
 				{
 					let os = (await import('os')).default;
 					let v8 = (await import('v8')).default;
